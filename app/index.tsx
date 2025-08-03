@@ -20,7 +20,7 @@ export default function Page() {
         </View>
       )}
       <WebView
-        source={{ uri: "http://192.168.1.13:8123" }}
+        source={{ uri: "http://homeassistant.local:8123/" }}
         onLoadEnd={() => setLoading(false)}
       />
     </SafeAreaView>
